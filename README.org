@@ -1,0 +1,17 @@
+* Kaggle Housing Prices Competition
+This is an attempted learning exercise for the [[https://www.kaggle.com/c/home-data-for-ml-course][Kaggle Housing Prices Competition]].
+
+* Setup
+Ensure you have at least Python 3.2+ and [[https://github.com/sdispater/poetry][Poetry]] installed.
+#+BEGIN_SRC bash
+# Setup a new environment
+cd kaggle-house-prices
+python -m venv .venv
+source .venv/bin/activate
+
+# Install Deps
+poetry install
+
+# Fire up Jupyter Lab
+jupyter lab
+#+END_SRC
